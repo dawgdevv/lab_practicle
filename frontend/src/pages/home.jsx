@@ -15,7 +15,7 @@ function Home() {
             setCurrentImage((prev) => (prev + 1) % images.length);
         }, 3000);
         return () => clearInterval(timer);
-    }, []);
+    },);
 
     return (
         <div style={styles.container}>
