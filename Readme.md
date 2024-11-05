@@ -19,7 +19,7 @@
 
 1. Navigate to the backend directory:
    ```sh
-   cd Backend
+   cd backend
    ```
 2. Install the dependencies:
    ```sh
